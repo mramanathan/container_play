@@ -1,0 +1,3 @@
+FROM alpine:latest
+
+CMD ["/bin/echo", "This is from the container host"]

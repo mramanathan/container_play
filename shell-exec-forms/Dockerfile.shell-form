@@ -1,0 +1,5 @@
+FROM alpine:latest
+
+ENV USER "ABC XYZ"
+
+CMD echo "Hello $USER"
